@@ -8,7 +8,7 @@
         <img src="http://mlombard.com.ua/top-banners/top-banner-gold.png" style="display: block;">
       </div>
       <div id="phones">
-        <div>Підтримка клієнтів <span>(000) 000-00-00</span></div>
+        <div>Підтримка клієнтів <span>(096) 710-01-33</span></div>
       </div>
     </header>
   <nav id="menu">
