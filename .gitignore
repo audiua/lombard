@@ -1,0 +1,5 @@
+/assets
+/protected/runtime/
+/config/db.php
+rss.xml
+robots.txt

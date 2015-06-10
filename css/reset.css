@@ -1,0 +1,26 @@
+@charset utf-8;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video{margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;}fieldset,img{border:0;}a:focus{outline:none;}a:hover{text-decoration:none;}html{height:100%;}ul,ol{list-style:none;}a img{border:none;text-decoration:none;}.floatbox{overflow:hidden;height:auto;zoom:1;}.left{float:left;}.right{float:right;}img.left{margin:0 20px 10px 0;}img.right{margin:0 0 10px 20px;}.width10{width:9.9%;}.width20{width:19.9%;}.width25{width:24.9%;}.width33{width:33.3%;}.width45{width:45%;}.width50{width:49.9%;}.width66{width:66.6%;}.width75{width:74.9%;}.w50{width:50px;}.w100{width:100px;}.w150{width:150px;}.w200{width:200px;}.w250{width:250px;}.w300{width:300px;}input.w50,textarea.w50{width:44px;}input.w100,textarea.w100{width:94px;}input.w150,textarea.w150{width:144px;}input.w200,textarea.w200{width:194px;}input.w250,textarea.w250{width:244px;}input.w300,textarea.w300{width:294px;}.ta-c{text-align:center;}.ta-l{text-align:left;}.ta-r{text-align:right;}br.clearfloat{font-size:0;line-height:0;clear:both;}
+	article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+input, select {
+    vertical-align:middle;
+}

@@ -1,0 +1,20 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php
+
+<IfModule mod_deflate.c>
+SetOutputFilter DEFLATE
+Header append Vary User-Agent
+</IfModule>
+
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf|woff|ttf)$">
+  Header set Cache-Control "max-age=2592000"
+</FilesMatch>
