@@ -69,7 +69,7 @@ Yii::import('ext.imperavi-redactor-widget.ImperaviRedactorWidget');
 			        'iframe' => true,
 			        'css' => 'wym.css',
 			        'imageGetJson' => Yii::app()->createAbsoluteUrl('/ajax/writing/imageGetJson'),
-			        'imageUpload' => Yii::app()->createAbsoluteUrl('/ajax/writing/imageUpload'),
+			        'imageUpload' => Yii::app()->createAbsoluteUrl('/inside/page/imageUpload'),
 			        'clipboardUploadUrl' => Yii::app()->createAbsoluteUrl('/ajax/writing/imageUpload'),
 			        'fileUpload' => Yii::app()->createAbsoluteUrl('/ajax/writing/fileUpload'),
 

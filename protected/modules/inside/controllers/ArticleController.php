@@ -186,7 +186,7 @@ class ArticleController extends Controller
 
 
 		$array = array( 
-		 	'filelink' => Yii::app()->baseUrl.'/unload/article/'.$filename, 
+		 	'filelink' => Yii::app()->baseUrl.'/images/articles/'.$filename, 
 		 	'filename' => $filename 
 	 	); 
 		echo stripslashes(json_encode($array)); 

@@ -32,7 +32,7 @@ class PageController extends Controller
 			// 	'users'=>array('*'),
 			// ),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','view','create','update'),
+				'actions'=>array('index','view','create','update','imageUpload'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -158,5 +158,33 @@ class PageController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
+	}
+
+	public function actionImageUpload(){
+		$image=CUploadedFile::getInstanceByName('file');
+		$filename = uniqid().'.'.$image->extensionName;
+		$path = Yii::app()->basePath.'/../images/pages/'.$filename;
+		// echo $path;
+		// die;
+		$image->saveAs(Yii::app()->basePath.'/../images/pages/'.$filename);
+
+
+		// $image_open = Yii::app()->image->load(Yii::app()->basePath.'/../img/knowall/article/'.$filename); 
+		// if(isset($image_open)){
+		// 	if ($image_open->width > $image_open->height){
+		// 		$dim = Image::HEIGHT;
+		// 	} else{ 
+		// 		$dim = Image::WIDTH;
+		// 	}  
+		// 	$image_open->resize(100, 100, $dim)->crop(100, 100); 
+		//  	$image_open->save(Yii::app()->basePath.'/../img/knowall/article/'.'thumb_'.$filename); 
+		// } 
+
+
+		$array = array( 
+		 	'filelink' => Yii::app()->baseUrl.'/images/pages/'.$filename, 
+		 	'filename' => $filename 
+	 	); 
+		echo stripslashes(json_encode($array)); 
 	}
 }
