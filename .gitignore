@@ -1,6 +1,6 @@
 /assets
 /protected/runtime/
-/config/db.php
+/protected/config/db.php
 rss.xml
 robots.txt
 /images

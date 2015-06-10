@@ -78,14 +78,8 @@ return array(
 		// 	'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		// ),
 		// uncomment the following to use a MySQL database
-		
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=lombard',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
-			'charset' => 'utf8',
-		),
+		'db'=> require(dirname(__FILE__).'/db.php'),
+
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
