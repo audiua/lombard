@@ -63,6 +63,7 @@ return array(
 				'/inside/<controller:\w+>/<action:\w+>/<id:\d+>'=>'inside/<controller>/<action>',
 				'/inside/<controller:\w+>/<action:\w+>'=>'inside/<controller>/<action>',
 				'/inside'=>'inside/default/index',
+				'/gold.html'=>'site/gold',
 				'/<page:[a-zA-Z0-9-]+>\.html'=>'site/page',
 				'/<category:\w+>/<article:[a-zA-Z0-9-]+>\.html'=>'site/article',
 				'/<category:\w+>/<p:\d+>'=>'site/category',

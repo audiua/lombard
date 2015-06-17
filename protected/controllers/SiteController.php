@@ -132,5 +132,9 @@ class SiteController extends Controller{
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
+	public function actionGold(){
+		$this->renderPartial('gold');
+	}
+
 	
 }

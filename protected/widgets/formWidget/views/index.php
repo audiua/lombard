@@ -3,7 +3,7 @@
 мрій!
 </h5>
 
-<div style="text-align: center;"><a href="javascript:showDialog('zayavka',350);"><img alt="" src="http://mlombard.com.ua/userfiles/image/bt-online.jpg"></a> <a href="javascript:showDialog('calk',350);"><img alt="" src="http://mlombard.com.ua/userfiles/image/calk-online.jpg"></a> <a href="javascript:show('http://mlombard.com.ua/gold.html', '', 620, 420)"><img alt="" src="http://mlombard.com.ua/userfiles/image/bt-gold.jpg"></a></div>
+<div style="text-align: center;"><a href="javascript:showDialog('calk',350);"><img alt="" src="http://mlombard.com.ua/userfiles/image/calk-online.jpg"></a> <a href="javascript:show('http://lombard-econom.pp.ua/gold.html', '', 620, 420)"><img alt="" src="http://mlombard.com.ua/userfiles/image/bt-gold.jpg"></a></div>
 
 <div id="shtorka"></div>
   <div id="zayavka" class="dialog">
