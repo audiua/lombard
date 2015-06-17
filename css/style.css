@@ -62,9 +62,9 @@ header.page{
 	z-index: 3;
 }
 header.page .banner{
-	border: #FEED42 1px solid;
-	margin: 12px 200px 0 200px;
-	height: 100px;
+	/*border: #FEED42 1px solid;*/
+	margin: 6px 200px 0 190px;
+	height: 113px;
 	position: relative;
 }
 header.page .banner img{
@@ -79,7 +79,7 @@ header.page .banner img{
 #logo a{
 	position: absolute;
 	top: 5px;
-	left: 0px;
+	left: -5px;
 	width: 190px;
 	height: 120px;
 	display: block;
@@ -783,3 +783,41 @@ table.no-borders td{
 	font-weight: bold;
 	font-size: 16px;
 }
+
+/* banner */
+/*.banner{
+	width: 598px;
+	height: 113px;
+	background: #FFD01B;
+	position: relative;
+}
+
+.banner img{
+	height: 103px;
+	width: 195px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 1px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    1px 2px 1px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         1px 2px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+.banner .info{
+	position: absolute;
+	left: 220px;
+	top: 15px;
+}
+
+.banner .info .info-title{
+	font-size: 24px;
+	color: #261503;
+	font-weight: bold;
+}
+
+.banner .info .info-description{
+	font-size: 18px;
+	color: #261503;
+	margin-top: 20px;
+}*/

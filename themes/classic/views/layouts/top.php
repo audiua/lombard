@@ -3,9 +3,9 @@
         <a href="/"></a>
       </div>
       <div class="banner">
-        <img src="http://mlombard.com.ua/top-banners/top-banner-green.png" style="display: none;">
-        <img src="http://mlombard.com.ua/top-banners/top-banner-silver.png" style="display: none;">
-        <img src="http://mlombard.com.ua/top-banners/top-banner-gold.png" style="display: block;">
+        <img src="<?= Yii::app()->request->getBaseUrl(); ?>/img/10.png" style="display: none;">
+        <img src="<?= Yii::app()->request->getBaseUrl(); ?>/img/20.png" style="display: none;">
+        <img src="<?= Yii::app()->request->getBaseUrl(); ?>/img/30.png" style="display: block;">
       </div>
       <div id="phones">
         <div>Підтримка клієнтів <span>(096) 710-01-33</span>
