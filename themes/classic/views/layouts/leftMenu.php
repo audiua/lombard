@@ -4,7 +4,11 @@
 
 			<li><?php  echo CHtml::link('Золото та срібло', array('/gold-and-silver.html'), array('class'=>'first')); ?></li>
 			<li><?php  echo CHtml::link('Мобільні телефони', array('/phones.html'), array('class'=>'')); ?></li>
-			<li><?php  echo CHtml::link('Побутова техніка', array('/tehnika.html'), array('class'=>'')); ?></li>
+			<li><?php  echo CHtml::link('Побутова та оргтехніка', array('/tehnika.html'), array('class'=>'')); ?></li>
+			<li><?php  echo CHtml::link('Предмети живопису та антикваріат', array('/old-art.html'), array('class'=>'')); ?></li>
+			<li><?php  echo CHtml::link('Годинники', array('/watchs.html'), array('class'=>'')); ?></li>
+			<li><?php  echo CHtml::link('Авто мото техніка', array('/avto.html'), array('class'=>'')); ?></li>
+			
 			
 
 

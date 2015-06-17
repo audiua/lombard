@@ -11,12 +11,22 @@
 </div>
 <div class="tab" style="display: block;"><img alt="" style="width: 288px; height: 190px;" src="/img/main-phones.png">
 <div class="text">
-<h4 style="text-align: center">Мобільні телефони та побутова техніка</h4>
+<h4 style="text-align: center">Мобільні телефони</h4>
 <p style="text-align: center;">Сума кредиту залежить від року випуску, комплектності&nbsp;і стану&nbsp; Вашої техніки та&nbsp; складає до 80% її оціночної вартості.</p>
 <p style="text-align: center;">Предметом застави можуть бути: мобільні телефони, ноутбуки, ТВ/фото/відео техніка,&nbsp;GPS навігатори, дрібнопобутова техніка, електроінструмент та ін.</p>
 <p style="text-align: right;"><a style="color: rgb(9, 3, 24);" href="/page/10/telefoni-i-tehnika.html"><em>детальніше</em></a></p>
 </div>
 </div>
+
+<div class="tab" style="display: block;"><img alt="" style="width: 288px; height: 190px;" src="/img/main-phones.png">
+<div class="text">
+<h4 style="text-align: center">Побутова та оргтехніка</h4>
+<p style="text-align: center;">Сума кредиту залежить від року випуску, комплектності&nbsp;і стану&nbsp; Вашої техніки та&nbsp; складає до 80% її оціночної вартості.</p>
+<p style="text-align: center;">Предметом застави можуть бути: мобільні телефони, ноутбуки, ТВ/фото/відео техніка,&nbsp;GPS навігатори, дрібнопобутова техніка, електроінструмент та ін.</p>
+<p style="text-align: right;"><a style="color: rgb(9, 3, 24);" href="/page/10/telefoni-i-tehnika.html"><em>детальніше</em></a></p>
+</div>
+</div>
+
 <div class="tab" style="display: none;"><img width="293" height="192" alt="" src="/img/main-picture.png">
 <div class="text">
 <h4 style="text-align: center;">Предмети живопису та антикваріат</h4>
@@ -41,13 +51,6 @@
 <p style="text-align: right;"><a style="color: rgb(9, 3, 24);" href="/page/5/auto-lombard.html"><em>детальніше</em></a></p>
 </div>
 </div>
-<div class="tab" style="display: none;"><img alt="" style="width: 280px; height: 188px;" src="/img/main-house.png">
-<div class="text">
-<h4 style="text-align: center;">Нерухомість</h4>
-<p style="text-align: center;">Існує думка, що в ломбарді можна одержати тільки невелику суму грошей. Ми пропонуємо швидко отримати&nbsp;потрібну Вам&nbsp;суму&nbsp;кредиту під заставу нерухомості. Подати заявку на оцінювання нерухомості можна по телефону або інтернету прямо зараз.</p>
-<p style="text-align: center;">На весь період кредиту Позичальник має право безкоштовно користуватися закладеним майном.</p>
-<p style="text-align: right;"><a style="color: rgb(9, 3, 24);" href="/page/6/neruhomist.html"><em>детальніше</em></a></p>
-</div>
-</div>
+
 			</div>
     </div>
