@@ -11,7 +11,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <?php echo CHtml::link('Inside', '/inside/admin', array('class'=>'navbar-brand')); ?>
+	      <?php echo CHtml::link('Inside', '/inside', array('class'=>'navbar-brand')); ?>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,7 +30,7 @@
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo Yii::app()->user->name; ?> <span class="caret"></span></a>
 	          <ul class="dropdown-menu" role="menu">
 	            <li><?php echo CHtml::link('Сайт', '/',array('target'=>'_blanck')); ?></li>
-	            <li><?php echo CHtml::link('Настройки', '/inside/setting'); ?></li>
+	            
 	            <li class="divider"></li>
 	            <li><?php echo CHtml::link('Выйти', '/site/logout'); ?></li>
 	          </ul>
