@@ -20,6 +20,7 @@
 	        <li class="<?php echo $this->id == 'clas' ? 'active' : '' ; ?>"><?php echo CHtml::link('Page', '/inside/page/'); ?></li>
 			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Category', '/inside/category/'); ?></li>
 			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Article', '/inside/article/'); ?></li>
+			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Left Menu', '/inside/leftMenu/'); ?></li>
 			
 	      </ul>
 	     

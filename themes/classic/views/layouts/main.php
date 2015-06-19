@@ -83,7 +83,7 @@
                 </div>
                 <div id="left">
 
-                    <?php $this->renderPartial('//layouts/leftMenu'); ?>
+                    <?php $this->widget('LeftMenuWidget'); ?>
 
                     <?php $this->widget('SaleWidget'); ?>
 

@@ -126,4 +126,12 @@ class Page extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public static function getAll(){
+		return CHtml::listData(self::model()->findAll(), 'id', 'title');
+	}
+
+	public function getUrl(){
+		return $this->slug . '.html';
+	}
 }
