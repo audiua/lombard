@@ -160,11 +160,10 @@ class LeftMenu extends CActiveRecord
 	{
 
 		if( !file_exists(Yii::getPathOfAlias('webroot').'/images/left_menu/'.$this->id) ){
-			return [];
+			return '';
 		}
 		$images = scandir(Yii::getPathOfAlias('webroot').'/images/left_menu/'.$this->id);
 
-		$files = [];
 		foreach($images as $image){
 			if( $image == '.' || $image == '..' ) continue;
 
