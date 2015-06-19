@@ -4,7 +4,7 @@
 
 			<?php foreach( $this->model as $i => $page ): ?>
 
-			<li><?= CHtml::link($page->page->title, array($page->page->url), array('class'=>($i===0)?'first':'')); ?></li>
+			<li><?= CHtml::link($page->page->title, $page->page->url, array('class'=>($i===0)?'first':'')); ?></li>
 			
 			<?php endforeach; ?>
 
