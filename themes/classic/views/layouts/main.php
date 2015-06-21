@@ -41,8 +41,7 @@
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
         <title>
             <?php // echo CHtml::encode($this->pageTitle); ?>
-            Головна / 
-      ломбард econom- кредити під заставу ювелірних виробів, мобільної та побутової техніки, нерухомості
+            Кредити під заставу ювелірних виробів, мобільної та побутової техніки, нерухомості
         </title>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
