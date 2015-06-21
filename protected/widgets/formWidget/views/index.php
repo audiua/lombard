@@ -6,9 +6,9 @@
 
 <div style="text-align: center;">
     <a href="javascript:showDialog('calk',350);">
-        <img alt="" src="http://mlombard.com.ua/userfiles/image/calk-online.jpg"></a>
+        <img alt="" src="http://lombard-econom.pp.ua/img/calk-online.jpg"></a>
     <a href="javascript:show('http://lombard-econom.pp.ua/gold.html', '', 620, 420)">
-        <img alt="" src="http://mlombard.com.ua/userfiles/image/bt-gold.jpg"></a>
+        <img alt="" src="http://lombard-econom.pp.ua/img/bt-gold.jpg"></a>
 </div>
 
 <div id="shtorka"></div>
