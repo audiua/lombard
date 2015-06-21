@@ -136,5 +136,30 @@ class SiteController extends Controller{
 		$this->renderPartial('gold');
 	}
 
+	public function actionCulc(){
+		$data = $_POST;
+		// d($data);
+		if($data){
+			$criteria = new CDbCriteria;
+			$criteria->condition = '`name`='."'".$data['name']."'";
+			$criteria->addCondition('`type`='."'".$data['type']."'");
+			$model = Culk::model()->find($criteria);
+			
+			$responce = array();
+
+			if(!$model){
+				$responce['success']=false;
+			} else {
+				$responce['success']=true;
+				$responce['price']=$model->price;
+				$responce['procent']=$model->procent;
+				
+			}
+
+			echo json_encode($responce);
+		} 
+
+	}
+
 	
 }

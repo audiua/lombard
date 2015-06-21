@@ -21,6 +21,7 @@
 			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Category', '/inside/category/'); ?></li>
 			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Article', '/inside/article/'); ?></li>
 			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Left Menu', '/inside/leftMenu/'); ?></li>
+			<li class="<?php echo $this->id == 'subject' ? 'active' : '' ; ?>"><?php echo CHtml::link('Culk', '/inside/culk/'); ?></li>
 			
 	      </ul>
 	     
