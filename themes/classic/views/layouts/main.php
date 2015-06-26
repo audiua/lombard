@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Кредити під заставу ювелірних виробів, мобільної та побутової техніки, нерухомості" />
-        <meta name="keywords" content="кредити під заставу, кредити під заставу ювелірних виробів, ломбард, кредити" />
+        <meta name="description" content="ломбард хмільник кредити під заставу ювелірних виробів, мобільної та побутової техніки, нерухомості" />
+        <meta name="keywords" content="ломбард хмільник, ломбард хмельник, кредити під заставу, кредити під заставу ювелірних виробів, ломбард, кредити" />
         <base href="<?php  echo Yii::app()->createAbsoluteUrl('/'); ?>">
         <link rel="canonical" href="<?php // echo $this->canonical; ?>">
 
@@ -41,7 +41,7 @@
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
         <title>
             <?php // echo CHtml::encode($this->pageTitle); ?>
-            Кредити під заставу ювелірних виробів, мобільної та побутової техніки, нерухомості
+            Ломбард Хмільник - кредити під заставу ювелірних виробів, мобільної та побутової техніки, нерухомості
         </title>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
